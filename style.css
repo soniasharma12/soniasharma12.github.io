@@ -1,14 +1,26 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Verdana', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('forest-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(34, 49, 63, 0.9);
     color: white;
     padding: 1rem 0;
     text-align: center;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    margin: 0;
 }
 
 header nav ul {
@@ -22,29 +34,43 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: #ffcc00;
     text-decoration: none;
+    font-weight: bold;
 }
 
 section {
     padding: 2rem;
     margin: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 }
 
 section#about {
-    background-color: #f4f4f4;
+    background-color: rgba(85, 107, 47, 0.8);
+    color: white;
 }
 
 section#projects {
-    background-color: #e2e2e2;
+    background-color: rgba(34, 139, 34, 0.8);
+    color: white;
 }
 
 section#contact {
-    background-color: #d1d1d1;
+    background-color: rgba(34, 139, 34, 0.8);
+    color: white;
+}
+
+.project {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(34, 49, 63, 0.9);
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -65,16 +91,19 @@ form label {
 form input, form textarea {
     padding: 0.5rem;
     margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 form button {
     padding: 0.7rem;
-    background-color: #333;
+    background-color: #556b2f;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #6b8e23;
 }
